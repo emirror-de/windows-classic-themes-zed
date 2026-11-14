@@ -1,14 +1,16 @@
 # Windows 2000 Theme for Zed
 
-A faithful Windows 2000–inspired theme for Zed, available in both Light and Dark variants. It captures the classic UI palette (warm grays, Win2k blue title bars) while ensuring modern readability and contrast throughout the editor and panels.
+Windows 2000 and Windows 7-inspired themes for Zed, each available in Light and Dark variants. The Windows 2000 theme captures the classic warm-gray palette and blue title bars; the Windows 7 theme uses cool Aero-inspired surfaces and a brighter blue accent. Both prioritize modern readability and contrast throughout the editor and panels.
 
 - Theme names:
   - Windows 2000 Light
   - Windows 2000 Dark
+  - Windows 7 Light
+  - Windows 7 Dark
 
 ## Highlights
 
-- Authentic Windows 2000 palette
+- Two nostalgic palettes: classic Windows 2000 and Aero-inspired Windows 7
   - Classic app background and panel gray: `#D4D0C8` (Light)
   - Signature accent/title blue: `#0A246A`
   - Familiar ANSI terminal colors
@@ -90,14 +92,14 @@ Select the theme from Zed’s Settings UI, or configure it via your `settings.js
 ## Customization
 
 Want to tweak a surface or status color?
-- You can fork/clone this repository and adjust values in `themes/windows2000.json`.
+- You can fork/clone this repository and adjust values in `themes/windows2000.json` or `themes/windows7.json`.
 - If something looks low-contrast in your particular setup, open an issue with a screenshot and the affected surface/state, and we’ll refine it.
 
 ## Contributing
 
 Issues and pull requests are welcome! If you contribute:
 - Keep readability and contrast as top priorities
-- Prefer staying close to the Windows 2000 palette unless contrast requires an adjustment
+- Keep each theme close to its Windows-era palette unless contrast requires an adjustment
 - Test changes in both Light and Dark variants
 
 ## License
